@@ -4,5 +4,6 @@
 <beans>
 
 	<!-- add your bean definitions here! -->
-
+	<bean id="CustomerMock" class="com.virtualpairprogrammers.services.customers.CustomerManagementServiceImplementationMock"></bean>
+	<bean id="DiaryMock" class="com.virtualpairprogrammers.services.diary.DiaryManagementServiceImplementationMock"></bean>
 </beans>
